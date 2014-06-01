@@ -1,5 +1,5 @@
 //Mapping between the table header and table body
-var tableHeadingMappingArray=[['eName','Name'],['eId','Emp Id'],['eLoc','Location'],['eAge','Age'],['eSal','Salary'],['eSkill','Skill']];
+var columnHeadingMappingArray=[['eName','Name'],['eId','Emp Id'],['eLoc','Location'],['eAge','Age'],['eSal','Salary'],['eSkill','Skill']];
 
 //JSON data 
 var sample='[{eName:"A",eId:"10001",eLoc:"ABC",eAge:"20",eSal:"10000$",eSkill:"Java"},'+
@@ -15,7 +15,7 @@ $(function()
 {
 	//call createTable 
 	var initialResultCount=1;
-	jjsTable.createTable('tablePlaceHolder',initialResultCount,sampleJSONObject,tableHeadingMappingArray);
+	jjsTable.createTable('tablePlaceHolder',initialResultCount,sampleJSONObject,columnHeadingMappingArray);
 	
 });
 	
