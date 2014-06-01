@@ -9,7 +9,7 @@ Bootstrap framework used to make the table responsive.
 * **User can configure number of results to be shown**
  
 > Important:
-> User needs to create a mapping library array between the JSON data and column header to be shown. Please follows as shown in the example.
+> User needs to create a mapping  array between the JSON data and column header to be shown. Please follows as shown in the example.
 
 
 > syntax:
